@@ -1,0 +1,141 @@
+{
+    "author": "DEVELARPER",
+    "dependencies": {},
+    "keywords": [],
+    "name": "transloc",
+    "pebble": {
+        "capabilities": [
+            "location"
+        ],
+        "displayName": "TransLoc",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "PREV_NAME",
+            "CURRENT_NAME",
+            "CURRENT_URL",
+            "NEXT_NAME",
+            "ERROR",
+            "COMMAND",
+            "LETTER",
+            "PIN_KIND",
+            "FETCH_CONFIG",
+            "API_KEY",
+            "PRIMARY_COLOR",
+            "FETCH_ROUTES",
+            "ROUTES_DATA",
+            "AGENCY_DOMAIN",
+            "JUMP_DOMAIN",
+            "CHUNK_IDX",
+            "CHUNK_TOTAL",
+            "CHUNK_DATA",
+            "FETCH_STOPS",
+            "ROUTE_ID",
+            "STOP_CHUNK_IDX",
+            "STOP_CHUNK_TOTAL",
+            "STOP_CHUNK_DATA",
+            "FETCH_LOCATION",
+            "LOCATION_LAT",
+            "LOCATION_LON",
+            "LOCATION_ERROR",
+            "FETCH_STOP_ARRIVALS",
+            "STOP_ID",
+            "ARRIVAL_CHUNK_IDX",
+            "ARRIVAL_CHUNK_TOTAL",
+            "ARRIVAL_CHUNK_DATA",
+            "BELL_STOP_ID",
+            "BELL_ROUTE_ID",
+            "BELL_STOP_NAME",
+            "BELL_MINUTES",
+            "FETCH_SUB_ARRIVALS",
+            "SUB_REQ_DATA",
+            "SUB_ARRIVALS_CHUNK_IDX",
+            "SUB_ARRIVALS_CHUNK_TOTAL",
+            "SUB_ARRIVALS_CHUNK_DATA",
+            "SUB_SYNC"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/bell_80x80.png",
+                    "name": "BELL_80",
+                    "targetPlatforms": [
+                        "emery"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/bell_50x50.png",
+                    "name": "BELL_50",
+                    "targetPlatforms": [
+                        "basalt",
+                        "diorite",
+                        "flint"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/stop_80x80.png",
+                    "name": "STOP_80",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/bell_25x25.png",
+                    "name": "BELL_25",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/stop_25x25.png",
+                    "name": "STOP_25",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/depart_25x25.png",
+                    "name": "DEPART_25",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/bus_25x25.png",
+                    "menuIcon": true,
+                    "name": "BUS_25",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/route_25x25.png",
+                    "name": "ROUTE_25",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/gear-01.png",
+                    "name": "GEAR_25",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/pin_25x25.png",
+                    "name": "PIN_25",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "basalt",
+            "diorite",
+            "emery",
+            "flint"
+        ],
+        "uuid": "7a3fbdcd-230e-46f5-8e8e-7bb40729fd25",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.0.0"
+}
